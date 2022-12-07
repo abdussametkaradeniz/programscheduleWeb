@@ -1,6 +1,7 @@
-import { legacy_createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import reducers from "./index";
+import thunk from "redux-thunk";
 
 export default function configuresStore(){
-    return legacy_createStore(reducers);
+    return createStore(reducers,applyMiddleware(thunk));
 }

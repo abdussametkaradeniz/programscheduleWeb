@@ -2,8 +2,5 @@
 
 export default {
     loginState:{},
-    currentCustomer:{customerName:"xx", customerId:-1},
-    customers:[],
-    customerTypes:[],
-currentCustomerType:{CustomerTypeId:-1},
+    currentCustomer:{CustomerName:"xx", CustomerId:-1},
 } 
