@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
 import "../../Css/Login.css";
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
+
 
 
 
 
 class Login extends Component {
   
-  render() {
-
-    
+  render() {    
     return (
       <div>
       <div className="Auth-form-container">
