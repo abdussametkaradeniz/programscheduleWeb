@@ -1,6 +1,9 @@
 //export const INCREASE_COUNTER = "INCREASE_COUNTER"
-export const HOSTNAME="https://localhost:44335/"
-export const GET_LOGIN_SUCCESS="GET_LOGIN_SUCCESS"
-export const GET_LOGOUT_SUCCESS="GET_LOGOUT_SUCCESS"
-export const GET_CUSTOMERS_SUCCESS="GET_CUSTOMERS_SUCCESS"
-export const GET_LOGIN_ERROR="GET_LOGIN_ERROR"
+export const actionTypes={
+    LOGIN:"LOGIN",
+    ADD_USER:"ADD_USER",
+    UPDATE_USER:"UPDATE_USER",
+    FORM_SUBMITION_STATUS:"FORM_SUBMITION_STATUS",
+    HOSTNAME:"https://localhost:44335/"
+}
+

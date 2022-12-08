@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {  Route,Routes,BrowserRouter } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Navi from "../navi/Navi";
 import { Container } from "reactstrap";
@@ -10,12 +10,11 @@ function App() {
     <div>
     <Container>
       <BrowserRouter>
-      <Routes>
-        <Route path="/login" element={<LoginRegister></LoginRegister>}/>
-        <Route path="/MainPage" element= {<MainPage></MainPage>}/>
-      </Routes>
-      </BrowserRouter>
-      
+    <Routes>
+        <Route path="/login" element={<LoginRegister />} />
+        <Route path="/mainpage" element={<MainPage />} />         
+        </Routes> 
+        </BrowserRouter>
     </Container>
     </div>
   );

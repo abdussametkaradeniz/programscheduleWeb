@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
 
-class Register extends Component {
+function Register(){
  
 
-  render() {
     return (
       <div>
         <div className="Auth-form-container">
@@ -25,7 +24,7 @@ class Register extends Component {
                   type="userName"
                   className="form-control mt-1"
                   placeholder="Enter your Name"
-                  onChange={this.onChangeHandler}
+                  
                 />
               </div>
               <div className="form-group mt-3">
@@ -34,7 +33,7 @@ class Register extends Component {
                   type="userName"
                   className="form-control mt-1"
                   placeholder="Enter your Surname"
-                  onChange={this.onChangeHandler}
+           
                 />
               </div>
               <div className="form-group mt-3">
@@ -43,12 +42,12 @@ class Register extends Component {
                   type="password"
                   className="form-control mt-1"
                   placeholder="Password"
-                  onChange={this.onChangeHandler}
+                 
                 />
               </div>
               <div className="d-grid gap-2 mt-3">
                 <button type="submit" className="btn btn-primary"
-                onSubmit={this.registerNewUser}>
+               >
                   Submit
                 </button>
               </div>
@@ -60,7 +59,7 @@ class Register extends Component {
         </div>
       </div>
     )
-  }
+  
 }
 
 
